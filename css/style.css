@@ -89,7 +89,7 @@ main {
     font-size: 2.5em;
 }
 
-.controle {
+.control {
     background: var(--main-preto);
     border-radius: 25px;
     float: right;
@@ -99,7 +99,7 @@ main {
     align-self: flex-end;
 }
 
-.controle-contador {
+.counter-control {
     width: 40px;
     height: 35px;
     background: none;
@@ -113,7 +113,7 @@ main {
     padding-top: 8px;
 }
 
-.controle-ajuste {
+.control-adjustment {
     display: inline-block;
     width: 40px;
     height: 40px;
