@@ -1,33 +1,33 @@
 const parts = {
-    "bracos": {
-        "forca": 29,
-        "poder": 35,
-        "energia": -21,
-        "velocidade": -5
+    "arm": {
+        "force": 29,
+        "power": 35,
+        "energy": -21,
+        "speed": -5
     },
 
-    "blindagem": {
-        "forca": 41,
-        "poder": 20,
-        "energia": 0,
-        "velocidade": -20
+    "armor": {
+        "force": 41,
+        "power": 20,
+        "energy": 0,
+        "speed": -20
     },
-    "nucleos":{
-        "forca": 0,
-        "poder": 7,
-        "energia": 48,
-        "velocidade": -24
+    "core":{
+        "force": 0,
+        "power": 7,
+        "energy": 48,
+        "speed": -24
     },
-    "pernas":{
-        "forca": 27,
-        "poder": 21,
-        "energia": -32,
-        "velocidade": 42
+    "legs":{
+        "force": 27,
+        "power": 21,
+        "energy": -32,
+        "speed": 42
     },
-    "foguetes":{
-        "forca": 0,
-        "poder": 28,
-        "energia": 0,
-        "velocidade": -2
+    "rockets":{
+        "force": 0,
+        "power": 28,
+        "energy": 0,
+        "speed": -2
     }
 }

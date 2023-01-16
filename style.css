@@ -37,7 +37,7 @@ main {
     position: relative;
 }
 
-.robo {
+.robot {
     height: 110%;
     z-index: 1;
     position: absolute;
@@ -45,7 +45,7 @@ main {
     top: -5%;
 }
 
-.titulo {
+.title {
     transform: rotate(180deg);
     font-weight: 500;
     font-size: 130px;
@@ -65,25 +65,25 @@ main {
     height: 80%;
 }
 
-/*** Equipamentos *****/
+/*** EqUIPMENTS *****/
 
-.equipamentos {
+.equipments {
     flex-basis: 32%;
 }
 
-.montador {
+.assembler {
     height: 100%;;
 }
 
-.montador-conteudo {
+.assembler-content {
     padding: 2em 10%;
 }
 
-.peca {
+.part {
     padding: 1em 0;
 }
 
-.peca-titulo {
+.part-title {
     color: var(--main-branco);
     text-transform: uppercase;
     font-size: 2.5em;
@@ -127,11 +127,11 @@ main {
     cursor: pointer;
 }
 
-.linha {
+.line {
     border-color: var(--main-cinza);
 }
 
-.producao {
+.production {
     margin-top: 1em;
     font-size: 2em;
     text-transform: uppercase;
@@ -143,27 +143,27 @@ main {
     cursor: pointer;
 }
 
-.producao:hover {
+.production:hover {
     background: var(--main-preto);
     color: var(--main-branco)
 }
 
 
 
-/*** Estatísticas *****/
-.estatisticas {
+/*** STATS *****/
+.statuss {
     flex-basis: 23%;
     padding: 2em 2em 0;
 }
 
-.estatistica {
+.status {
     color: var(--main-branco);
     display: flex;
     align-items: flex-start;
     height: 25%;
 }
 
-.estatistica-titulo {
+.status-title {
     font-size: 1.5em;
     border-bottom: 1px solid var(--main-cinza);
     flex-basis: 40%;
@@ -171,7 +171,7 @@ main {
     order: 1
 }
 
-.estatistica-valor {
+.status-value {
     flex-basis: 60%;
     position: relative;
     margin: 10px 0 0;
@@ -179,7 +179,7 @@ main {
     margin: -10px 0 0;
 }
 
-.estatistica-valor::after {
+.status-value::after {
     content: "";
     display: block;
     padding-bottom: 100%;
@@ -187,7 +187,7 @@ main {
     border-radius: 50%;
 }
 
-.estatistica-numero {
+.status-number {
     position: absolute;
     top: 50%;
     transform: translateY(-46%);
@@ -198,12 +198,12 @@ main {
     margin: 0;
 }
 
-.estatistica:nth-child(2n) .estatistica-titulo {
+.status:nth-child(2n) .status-title {
     order: 2;
     text-align: right;
 }
 
-.estatistica:nth-child(2n) .estatistica-valor {
+.status:nth-child(2n) .status-value {
     order: 1;
     flex-basis: 35%;
     margin: 10px 0 0;

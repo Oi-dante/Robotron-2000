@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/jpg" href="img/favicon.ico"/>
-    <title>Robotron 2000</title>
+    <title>Robotron-2000</title>
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300;500&display=swap" rel="stylesheet"> 
@@ -15,78 +15,78 @@
 <body>
     <main>
         <section class="robotron">
-            <img class="robo" src="colors-robotron/Robotron 2000 - black/robotron.png" alt="Robotron">
-            <figcaption class="titulo">ROBOTRON <br>2000</figcaption>
+            <img class="robot" src="colors-robotron/Robotron 2000 - black/robotron.png" alt="Robotron">
+            <figcaption class="title">ROBOTRON <br>2000</figcaption>
         </section>
 
-        <section class="box estatisticas">
-            <div class="estatistica">
-                <p class="estatistica-titulo">Força</p>
-                <div class="estatistica-valor">
-                    <p class="estatistica-numero" data-stats="force">968</p>
+        <section class="box statuss">
+            <div class="status">
+                <p class="status-title">Force</p>
+                <div class="status-value">
+                    <p class="status-number" data-stats="force">0</p>
                 </div>
             </div>
-            <div class="estatistica">
-                <p class="estatistica-titulo">Poder</p>
-                <div class="estatistica-valor">
-                    <p class="estatistica-numero" data-stats="power">630</p>
+            <div class="status">
+                <p class="status-title">Power</p>
+                <div class="status-value">
+                    <p class="status-number" data-stats="power">0</p>
                 </div>
             </div>
-            <div class="estatistica">
-                <p class="estatistica-titulo">Energia</p>
-                <div class="estatistica-valor">
-                    <p class="estatistica-numero" data-stats="energy">289</p>
+            <div class="status">
+                <p class="status-title">Energy</p>
+                <div class="status-value">
+                    <p class="status-number" data-stats="energy">0</p>
                 </div>
             </div>
-            <div class="estatistica">
-                <p class="estatistica-titulo">Velocidade</p>
-                <div class="estatistica-valor">
-                    <p class="estatistica-numero" data-stats="speed">597</p>
+            <div class="status">
+                <p class="status-title">Speed</p>
+                <div class="status-value">
+                    <p class="status-number" data-stats="speed">0</p>
                 </div>
             </div>
         </section>
 
-        <section class="equipamentos">
-            <form action="" class="montador">
-                <div class="box montador-conteudo">
-                    <div class="peca">
-                        <label for="" class="peca-titulo">Braços</label>
+        <section class="equipments">
+            <form action="" class="assembler">
+                <div class="box assembler-content">
+                    <div class="part">
+                        <label for="" class="part-title">Arm</label>
                         <div class="control">
                             <buttom class="control-adjustment" data-controle="-" data-parts="arm" >-</buttom>
                             <input type="text" class="counter-control" value="00" data-counter>
                             <buttom class="control-adjustment" data-controle="+" data-parts="arm" >+</buttom>
                         </div>
                     </div>
-                    <hr class="linha">
-                    <div class="peca">
-                        <label for="" class="peca-titulo">Blindagem</label>
+                    <hr class="line">
+                    <div class="part">
+                        <label for="" class="part-title">Armor</label>
                         <div class="control">
                             <buttom class="control-adjustment" data-controle="-" data-parts="armor" >-</buttom>
                             <input type="text" class="counter-control" value="00" data-counter>
                             <buttom class="control-adjustment" data-controle="+" data-parts="armor" >+</buttom>
                         </div>
                     </div>
-                    <hr class="linha">
-                    <div class="peca">
-                        <label for="" class="peca-titulo">Núcleos</label>
+                    <hr class="line">
+                    <div class="part">
+                        <label for="" class="part-title">Core</label>
                         <div class="control">
                             <buttom class="control-adjustment" data-controle="-" data-parts="core" >-</buttom>
                             <input type="text" class="counter-control" value="00" data-counter>
                             <buttom class="control-adjustment" data-controle="+" data-parts="core" >+</buttom>
                         </div>
                     </div>
-                    <hr class="linha">
-                    <div class="peca">
-                        <label for="" class="peca-titulo">Pernas</label>
+                    <hr class="line">
+                    <div class="part">
+                        <label for="" class="part-title">Legs</label>
                         <div class="control">
                             <buttom class="control-adjustment" data-controle="-" data-parts="legs" >-</buttom>
                             <input type="text" class="counter-control" value="00" data-counter>
                             <buttom class="control-adjustment" data-controle="+" data-parts="legs" >+</buttom>
                         </div>
                     </div>
-                    <hr class="linha">
-                    <div class="peca">
-                        <label for="" class="peca-titulo">Foguetes</label>
+                    <hr class="line">
+                    <div class="part">
+                        <label for="" class="part-title">Rockets</label>
                         <div class="control">
                             <buttom class="control-adjustment" data-controle="-" data-parts="rockets" >-</buttom>
                             <input type="text" class="counter-control" value="00" data-counter>
@@ -94,7 +94,7 @@
                         </div>
                     </div>
                 </div>
-                <input type="submit" value="Iniciar produção" class="producao" id="producao">
+                <input type="submit" value="Start Production" class="production " id="production ">
             </form>
         </section>
     </main>
