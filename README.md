@@ -6,7 +6,7 @@
 
 <p>This project was made following the design of Alura's DOM study, you can see the challenge by <a href="https://cursos.alura.com.br/course/javascript-manipulando-dom">clicking here.</a>
 
-"
+
 <h2>⚙️Tecnologias</h2>
 <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
   <img src="https://img.shields.io/badge/HTML5-121010?style=for-the-badge&logo=html5&logoColor=E34F26"/>
