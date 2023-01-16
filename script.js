@@ -6,7 +6,7 @@ const stats = document.querySelectorAll("[data-stats]")
 ctrl.forEach( (element) => {
     element.addEventListener("click", (event) => {
         manipulateData(event.target.dataset.controle, event.target.parentNode)
-        attStats(event.target.dataset.parts)
+        attStats(event.target.dataset.parts, event.target.dataset.controle)
     })
 }) 
 
@@ -21,10 +21,14 @@ function manipulateData(assemble, ctrl) {
     }
 }
 
-function attStats(control) {
+function attStats(control, assemble) {
+
     
     stats.forEach( (element)=> {
-        element.textContent = parseInt(element.textContent) + parts[control] [element.dataset.stats]
-
+        if (assemble === "-") {
+            element.textContent = parseInt(element.textContent) - parts[control] [element.dataset.stats]
+        } else{
+            element.textContent = parseInt(element.textContent) + parts[control] [element.dataset.stats]
+        }
     })
 }
